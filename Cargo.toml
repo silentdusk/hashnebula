@@ -1,0 +1,18 @@
+[package]
+name = "hashnebula"
+version = "0.1.0"
+edition = "2021"
+description = "Password finder from hash using a password list and bruteforce"
+authors = ["magicyou"]
+license = "MIT"
+repository = "https://github.com/silentdusk/hashnebula"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argon2 = "0.5.3"
+bcrypt = "0.15.1"
+clap = { version = "4.5.4", features = ["derive"] }
+colored = "2.1.0"
+indicatif = "0.17.8"
+rayon = "1.10.0"
